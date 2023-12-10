@@ -11,5 +11,6 @@ const isAgreaterThanB = () =>{
 
 let result:string = isAgreaterThanB();
 
-console.log(result)
+// console.log(result)
+
 
