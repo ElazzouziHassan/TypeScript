@@ -10,4 +10,4 @@ const isAgreaterThanB = () => {
     }
 };
 let result = isAgreaterThanB();
-console.log(result);
+// console.log(result)
