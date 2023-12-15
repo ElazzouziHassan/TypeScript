@@ -1,5 +1,5 @@
 "use strict";
-// Basic Types.
+// Simple Types.
 let bool = false;
 let num = 7;
 let fullName = 'Elazzouzi Hassan';
