@@ -37,3 +37,5 @@ colors.push('green') // No error
   //names.push("Jack"); -> Error: Property 'push' does not exist on type 'readonly string[]'.
 
 
+
+
