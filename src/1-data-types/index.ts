@@ -27,4 +27,13 @@ let list: Array<number> = [1, 2, 3]
 let undefinedVar: undefined = undefined;
 let nullVar: null = null;
 
+// Arrays :
+const colors: string[] = [];
+colors.push('green') // No error
+// colors.push(1) -> Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+
+  // !-Readonly:
+  const names: readonly string[] = ["Hassan"];
+  //names.push("Jack"); -> Error: Property 'push' does not exist on type 'readonly string[]'.
+
 

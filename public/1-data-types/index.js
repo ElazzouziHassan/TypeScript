@@ -21,3 +21,10 @@ unk = true;
 // Type undefined & null : undefined and null are types that refer to the JavaScript primitives undefined and null respectively.
 let undefinedVar = undefined;
 let nullVar = null;
+// Arrays :
+const colors = [];
+colors.push('green'); // No error
+// colors.push(1) -> Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+// !-Readonly:
+const names = ["Hassan"];
+//names.push("Jack"); -> Error: Property 'push' does not exist on type 'readonly string[]'.
