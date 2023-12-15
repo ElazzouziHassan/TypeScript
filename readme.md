@@ -18,6 +18,12 @@ Some type systems are known to be unnecessarily superfluous. TypeScript, however
 - Type errors don't prevent JavaScript from emitting. If you're trying to migrate to TypeScript you might run into type errors. This doesn't block the JavaScript from being emitted though.
 - Ambient types. One of the goals for TypeScript is to work with existing JavaScript. TypeScript does this through a declaration file, which we'll learn more about later.
 
+## Getting Started :
+Within your npm project, run the following command to install the compiler:
+```bash
+npm install typescript --save-dev
+```
+
 ## Syntax :
 
 TypeScript uses postfix type annotations to denote the type of something. This can be seen with variables, function parameters, function return types, class property types and more.
@@ -269,5 +275,5 @@ var x = new Calculator(10)
 
 ---
 
-#source => @TypeStrong
+
 
