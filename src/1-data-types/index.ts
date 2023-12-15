@@ -23,6 +23,8 @@ let list: Array<number> = [1, 2, 3]
 // Error: Type 'boolean' is not assignable to type 'never'.
 // never is rarely used, especially by itself, its primary use is in advanced generics.
 
-
+// Type undefined & null : undefined and null are types that refer to the JavaScript primitives undefined and null respectively.
+let undefinedVar: undefined = undefined;
+let nullVar: null = null;
 
 
