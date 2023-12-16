@@ -51,6 +51,20 @@ let anotherTupe:[number, boolean, string] = [1, false, 'text'];
 let readOnlyTuple: readonly [number, string] = [1, 'text'];
 // readOnlyTuple.push('1') -> error : Property 'push' does not exist on type 'readonly [number, string]'
 
+// Object Types :
+const user: {id: number, name: string, age: number} = {
+  id : 1,
+  name : 'Hassan',
+  age : 26,
+}
+console.log(user.name);
+
+// optional property :
+const user_1: {id: number, name: string, age?: number} = {
+  id : 1,
+  name : 'Wizardy',
+}
+
 
 
 
