@@ -65,6 +65,15 @@ const user_1: {id: number, name: string, age?: number} = {
   name : 'Wizardy',
 }
 
+// Functions :
+function getTotal(arg_1:number, arg_2:number): number {
+  return arg_1 + arg_2;
+}
+// with arrow function :
+// const getTotal = (arg_1:number, arg_2:number): number => arg_1 + arg_2;
+
+let total: number = getTotal(2,6);
+
 
 
 
