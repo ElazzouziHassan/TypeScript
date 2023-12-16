@@ -51,3 +51,10 @@ const user_1 = {
     id: 1,
     name: 'Wizardy',
 };
+// Functions :
+function getTotal(arg_1, arg_2) {
+    return arg_1 + arg_2;
+}
+// with arrow function :
+// const getTotal = (arg_1:number, arg_2:number): number => arg_1 + arg_2;
+let total = getTotal(2, 6);
