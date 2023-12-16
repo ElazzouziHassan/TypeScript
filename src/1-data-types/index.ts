@@ -42,5 +42,11 @@ colors.push('green') // No error
 let myTuple: [number, string, boolean];
 myTuple = [1, 'Hassan', true];
 
+// error example :
+// let anotherTupe:[number, boolean, string] = ['text', 1, false];
+// the right form :
+let anotherTupe:[number, boolean, string] = [1, false, 'text'];
+
+
 
 

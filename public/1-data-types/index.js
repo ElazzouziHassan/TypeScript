@@ -32,3 +32,7 @@ const names = ["Hassan"];
 // Tuples are great because they allow each element in the array to be a known type of value.
 let myTuple;
 myTuple = [1, 'Hassan', true];
+// error example :
+// let anotherTupe:[number, boolean, string] = ['text', 1, false];
+// the right form :
+let anotherTupe = [1, false, 'text'];
