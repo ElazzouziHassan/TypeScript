@@ -36,3 +36,6 @@ myTuple = [1, 'Hassan', true];
 // let anotherTupe:[number, boolean, string] = ['text', 1, false];
 // the right form :
 let anotherTupe = [1, false, 'text'];
+// readonly tuples :
+let readOnlyTuple = [1, 'text'];
+// readOnlyTuple.push('1') -> error : Property 'push' does not exist on type 'readonly [number, string]'
