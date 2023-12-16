@@ -37,5 +37,10 @@ colors.push('green') // No error
   //names.push("Jack"); -> Error: Property 'push' does not exist on type 'readonly string[]'.
 
 
+// Tuples : A tuple is a typed array with a pre-defined length and types for each index.
+// Tuples are great because they allow each element in the array to be a known type of value.
+let myTuple: [number, string, boolean];
+myTuple = [1, 'Hassan', true];
+
 
 
